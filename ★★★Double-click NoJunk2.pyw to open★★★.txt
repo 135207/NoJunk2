@@ -1,0 +1,52 @@
+★★★ Double-click NoJunk2.pyw to open ★★★
+====================================================
+
+[English]
+Double-click NoJunk2.pyw in this folder to open the tool.
+Requires Python 3.10 or higher (check "Add to PATH" during install).
+With Python installed, .pyw opens with pythonw by default - double-click shows
+the window directly, no black console, just like the exe.
+
+Or open a terminal in this folder and run: python nojunk_ui.py
+
+[Important: patches need a mod loader (DMM/CDUMM) to take effect]
+The game does NOT read the mods/ folder by itself. The overlay patch generated
+by this tool only takes effect after a mod loader (DMM/CDUMM) loads it.
+If you do not use CDUMM, click "Export patch JSON" on the Global tab and import
+it into CDUMM / JSON Mod Manager / DMM.
+
+[This version]
+1.0.2 - Adapted to the game 1.0.0.3392 (2026-10-30 update) new data format.
+Older versions cannot read the drop tables after this game update - please
+update to this version.
+
+[Problems?]
+Use "One-click self-check report" in the UI and send the result to the author.
+To restore the vanilla files: Global tab -> "Restore vanilla".
+
+[More] See README.md
+
+----------------------------------------------------
+
+[中文]
+双击本文件夹里的 NoJunk2.pyw 即可打开。
+需要已安装 Python 3.10 或更高版本（安装时勾选 Add to PATH）。
+装了 Python 后 .pyw 会默认关联，双击直接出窗口，没有黑框，和 exe 一样。
+也可以用终端进入本文件夹执行：python nojunk_ui.py
+
+[重要：补丁要靠 DMM/CDUMM 生效]
+游戏本体不读取 mods/ 目录。本工具生成的 overlay 补丁必须由
+DMM/CDUMM（MOD 加载器）加载才会生效。
+不用 CDUMM 的玩家，可在「全局」页点「导出补丁 JSON」，
+再到 CDUMM / JSON Mod Manager / DMM 里导入。
+
+[本版更新]
+1.0.2 —— 适配游戏 1.0.0.3392（2026-10-30 更新）的新版数据格式。
+旧版在本次游戏更新后会读不到掉落表，请更新到本版。
+
+[出问题怎么办]
+界面上有「一键自检报告」，把结果复制给作者即可。
+想恢复原样：全局页点「恢复原版」。
+
+[更多信息] 详见 README.md
+（内容由AI生成，仅供参考）
